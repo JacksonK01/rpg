@@ -1,4 +1,8 @@
 body {
+    overflow: hidden;
+}
+
+#battle-screen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +12,28 @@ body {
     color: black;
 }
 
-.generic-button {
+#server-test-screen {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#server-test-screen form {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 4px;
+}
+
+#server-test-screen ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    list-style-type: none;
+}
+
+#server-test-screen input,
+#server-test-screen button {
+    border-radius: 10px;
+    padding: 10px;
 }
