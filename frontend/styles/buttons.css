@@ -1,0 +1,100 @@
+:root {
+    --btn-width: 200px;
+    --btn-height: 60px;
+}
+
+.fight-btn {background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18  51%, #8E0E00  100%)}
+.fight-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    min-width: var(--btn-width);
+    min-height: var(--btn-height);
+}
+
+.fight-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.bag-btn {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+.bag-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    min-width: var(--btn-width);
+    min-height: var(--btn-height);
+}
+
+.bag-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.poke-btn {background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%)}
+.poke-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    min-width: var(--btn-width);
+    min-height: var(--btn-height);
+}
+
+.poke-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.run-btn {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.run-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+
+    min-width: var(--btn-width);
+    min-height: var(--btn-height);
+}
+
+.run-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+

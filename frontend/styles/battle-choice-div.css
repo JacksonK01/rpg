@@ -1,0 +1,8 @@
+.battle-choice-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 10px; /* Spacing between buttons */
+    width: 200px; /* Adjust width as needed */
+}
+
