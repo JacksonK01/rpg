@@ -31,3 +31,10 @@ export function assertFunction(func) {
     }
     return func;
 }
+
+export function assertArray(arr) {
+    if(typeof arr !== Array) {
+        throw new TypeError(`${arr} is not of type ${Array}`)
+    }
+    return arr;
+}

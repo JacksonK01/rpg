@@ -1,5 +1,5 @@
-import PknStats from "./pokemonObjects/PknStats.js";
-import Pokemon from "./pokemonObjects/Pokemon.js"
+import PknStats from "./pokemon/PknStats.js";
+import Pokemon from "./pokemon/Pokemon.js"
 
 let stats = new PknStats(1, 1, 1, 1, 1, 1, 1)
 stats.print()
